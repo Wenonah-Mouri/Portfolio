@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wenonah Mahbub Mouri - SEO Specialist & Digital Growth Strategist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display (Serif) and Quicksand (Sans-serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Animated background shapes -->
+    <div class="bg-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">Wenonah</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="mobile-menu">
+            <button id="close-mobile-menu" class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="#home" onclick="document.getElementById('mobile-menu').classList.remove('active')">Home</a>
+            <a href="#about" onclick="document.getElementById('mobile-menu').classList.remove('active')">About</a>
+            <a href="#skills" onclick="document.getElementById('mobile-menu').classList.remove('active')">Skills</a>
+            <a href="#projects" onclick="document.getElementById('mobile-menu').classList.remove('active')">Projects</a>
+            <a href="#experience" onclick="document.getElementById('mobile-menu').classList.remove('active')">Experience</a>
+            <a href="#contact" onclick="document.getElementById('mobile-menu').classList.remove('active')">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Wenonah Mahbub Mouri</h1>
+            <p class="subtitle">SEO Specialist & Digital Growth Strategist</p>
+            <a href="/cv/cv.pdf" target="_blank" 
+               class="cta-button">
+                   Download CV
+           </a>
+        </div>
+    </section>
+
+    <!-- About Her Section -->
+    <section id="about" class="glass-card">
+        <h2 class="section-header">About Her</h2>
+        <div class="about-content">
+            <div>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                 I am an upgraded SEO Expert with extensive experience in digital marketing and a deep understanding of search engine algorithms and optimization strategies. Currently serving as the Assistant Manager - SEO Expert (Lead) at 10 Minute School, I manage comprehensive SEO campaigns that boost website performance, increase organic traffic, and maximize digital marketing ROI.                
+
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                  In my previous role as an SEO Specialist at Star Tech, I developed and executed SEO strategies that significantly improved online visibility and drove qualified traffic. I am well-versed in on-page and off-page SEO, technical SEO, keyword research, and content marketing. Additionally, I have expertise in AI-powered content creation, utilizing artificial intelligence to enhance content quality and streamline SEO processes.
+                </p>
+                </div>
+            <div class="flex justify-center">
+                <img src="/photo/pic.jpg" alt="Wenonah Mahbub Mouri Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+            <h2 class="section-header">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Technical SEO -->
+                <div class="skill-card glassmorphism">
+                    <i class="fas fa-cogs text-blue-500"></i>
+                    <h3>Technical SEO</h3>
+                    <ul>
+                        <li>On-Page SEO (Keyword Research, Meta Tags, URL Structuring, Internal Linking)</li>
+                        <li>Off-Page SEO</li>
+                        <li>Technical SEO (Crawlability, Indexing, Site Speed, Core Web Vitals, Schema Markup)</li>
+                        <li>Local SEO (Google Business Profile Optimization, NAP Consistency, Local Citations)</li>
+                        <li>Structured Data</li>
+                    </ul>
+                </div>
+                <!-- AI & Advanced SEO -->
+                <div class="skill-card glassmorphism">
+                    <i class="fas fa-brain text-purple-500"></i>
+                    <h3>AI & Advanced SEO</h3>
+                    <ul>
+                        <li>AI SEO (GEO, AEO, LLM Optimization, Voice Search SEO, Featured Snippet Targeting)</li>
+                        <li>ChatGPT, Gemini, Grock</li>
+                        <li>Open AI</li>
+                    </ul>
+                </div>
+                <!-- Analytics & Tools -->
+                <div class="skill-card glassmorphism">
+                    <i class="fas fa-chart-line text-green-500"></i>
+                    <h3>Analytics & Tools</h3>
+                    <ul>
+                        <li>Google Analytics 4 (GA4)</li>
+                        <li>Google Search Console</li>
+                        <li>Google Trends</li>
+                        <li>Ahrefs, SEMrush, Ubersuggest</li>
+                        <li>Screaming Frog, Surfer SEO / Frase / Clearscope, ContentKing, SE Ranking</li>
+                    </ul>
+                </div>
+                <!-- Web & Productivity -->
+                <div class="skill-card glassmorphism">
+                    <i class="fas fa-laptop-code text-pink-500"></i>
+                    <h3>Web & Productivity</h3>
+                    <ul>
+                        <li>WordPress, Shopify</li>
+                        <li>PHP, HTML, CSS basics for SEO adjustments</li>
+                        <li>MS Word, MS Excel, PowerPoint</li>
+                        <li>Google Sheets, Microsoft Excel</li>
+                        <li>Canva, Figma for campaign creatives</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="glass-card">
+        <h2 class="section-header">Notable Projects & Case Studies</h2>
+        <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <img src="/photo/pic.jpg" alt="Project 1">
+                <div class="project-content">
+                    <h3 data-project-title="E-commerce Traffic Boost">E-commerce Traffic Boost</h3>
+                    <p data-project-description="Increased organic traffic by 75% for an online fashion retailer within 10 months.">Increased organic traffic by 75% for an online fashion retailer within 10 months.</p>
+                </div>
+                <div class="project-overlay">
+                    <p class="font-bold mb-2">Key Results:</p>
+                    <ul data-project-results="Organic Traffic: +75%, Keyword Rankings: 20+ keywords in top 3, Conversion Rate: +15%">
+                        <li>Organic Traffic: +75%</li>
+                        <li>Keyword Rankings: 20+ keywords in top 3</li>
+                        <li>Conversion Rate: +15%</li>
+                    </ul>
+                    <button class="enhance-description-btn" data-project-id="project1">
+                        ✨ Enhance Description
+                    </button>
+                </div>
+                
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <img src="https://placehold.co/600x400/F3E5F5/8E24AA?text=Project+2+Image" alt="Project 2">
+                <div class="project-content">
+                    <h3 data-project-title="SaaS Lead Generation">SaaS Lead Generation</h3>
+                    <p data-project-description="Optimized content strategy, increasing qualified leads by 50% for a B2B SaaS platform.">Optimized content strategy, increasing qualified leads by 50% for a B2B SaaS platform.</p>
+                </div>
+                <div class="project-overlay">
+                    <p class="font-bold mb-2">Key Results:</p>
+                    <ul data-project-results="Organic Leads: +50%, Blog Traffic: +120%, Domain Authority: +5 points">
+                        <li>Organic Leads: +50%</li>
+                        <li>Blog Traffic: +120%</li>
+                        <li>Domain Authority: +5 points</li>
+                    </ul>
+                    <button class="enhance-description-btn" data-project-id="project2">
+                        ✨ Enhance Description
+                    </button>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <img src="https://placehold.co/600x400/FFF3E0/FF6F00?text=Project+3+Image" alt="Project 3">
+                <div class="project-content">
+                    <h3 data-project-title="Local Business SEO">Local Business SEO</h3>
+                    <p data-project-description="Enhanced local rankings for a chain of cafes, boosting foot traffic and online reviews.">Enhanced local rankings for a chain of cafes, boosting foot traffic and online reviews.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="section-header">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <span class="experience-dot"></span>
+                    <div class="experience-card glassmorphism">
+                        <h3>Assistant Manager - SEO Specialist (Lead)</h3>
+                        <p class="company">10 Minute School</p>
+                        <p class="duration">Auguest 2024 - Present</p>
+                        <ul>
+                            <li>Led end-to-end SEO audits (On-page, Off-page, Technical) to boost 2x organic traffic and fix 98% core issues.</li>
+                        <li>Optimized for Google & AI platforms (ChatGPT, Gemini) using GEO, AEO, Voice SEO, and schema markup.</li>
+                        <li>Created LLM-friendly content for AI Overviews, featured snippets, and voice assistants.</li>
+                        <li>Ran 360° digital campaigns across web, email & social media.</li>
+                        <li>Executed in-depth keyword research, metadata, image SEO, and content structuring.</li>
+                        <li>Tracked performance via GA4, GSC, Ahrefs, SEMrush, ContentKing.</li>
+                        <li>Built scalable link strategies and enhanced E-E-A-T with entity SEO.</li>
+                        <li>Aligned SEO with content, SMM, and SEO-PPC strategies for full-funnel growth.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="experience-dot"></span>
+                    <div class="experience-card glassmorphism">
+                        <h3>Senior Executive</h3>
+                        <p class="company">10 Minute School</p>
+                        <p class="duration">March 2022 - September 2023</p>
+                        <ul>
+                            <li>Optimized all website pages for Google using keyword research, metadata, URL structure, and image SEO.</li>
+                            <li>Monitored traffic & rankings via GA4, GSC, Ahrefs, SEMRush, Google Trends, and ContentKing.</li>
+                            <li>Identified and resolved technical SEO issues affecting performance and visibility</li>
+                            <li>Led content marketing initiatives by planning, creating, and optimizing high-performing SEO content.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="experience-dot"></span>
+                    <div class="experience-card glassmorphism">
+                        <h3>Executive</h3>
+                        <p class="company">StarTech</p>
+                        <p class="duration">January 2019 - February 2022 </p>
+                        <ul>
+                            <li>Analyzed PC components, gaming gear, accessories, and software to support SEO and product strategy.</li>
+                            <li>Conducted on-page SEO audits, resolved issues, and optimized pages (keywords, meta tags, URLs, images).</li>
+                            <li>Uploaded products with SEO-optimized content to improve visibility and sales.</li>
+                            <li>Stayed current with search algorithm updates and implemented best practices.</li>
+                            <li>Managed online orders and provided efficient hotline support for customer queries.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="glass-card">
+        <h2 class="section-header">Get In Touch</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <!-- Confirmation Toast Message -->
+        <div id="confirmation-toast" class="toast">
+            Message sent successfully! Thank you.
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+          
+            <a href="https://www.facebook.com/WenonahMahbubMouri" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-facebook-f"></i>
+</a>
+
+           <a href="https://www.linkedin.com/in/wenonah-mahbub-mouri/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin-in"></i>
+</a>
+            <a href="wenonahmahbub@gmail.com" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-envelope"></i>
+</a>
+        </div>
+        <p>&copy; 2025 Wenonah Mahbub Mouri. All Rights Reserved.</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your public key
+  })();
+</script>
+
+
+</body>
+</html>
+
